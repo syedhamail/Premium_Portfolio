@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Hamail - Premium Portfolio</title>
+    <!-- Google Fonts for Playfair Display and Roboto -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- Particles.js for background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Particle background canvas -->
+    <div id="particles-js"></div>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <a href="index.html">
+                <div class="logo">Syed Hamail</div>
+            </a>
+            <button class="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Syed Hamail, a visionary Web Developer and AI Agents Builder crafting extraordinary digital
+            experiences with elegance and precision.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A dedicated and driven Web Developer and AI Agents Builder seeking a dynamic role where I can leverage my
+            skills to drive organizational success. Passionate about
+            delivering innovative solutions, I aim to enhance my technical expertise and soft skills through challenging
+            projects, contributing to growth while continuously
+            expanding my knowledge.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-list">
+            <div class="education-item">
+                <h3>Diploma in Certified Agentic and Robotic AI Engineer [Ongoing]</h3>
+                <p>PIAIC, Karachi, Pakistan</p>
+                <p>Year: 2025</p>
+            </div>
+            <div class="education-item">
+                <h3>Diploma in Certified AI, Metaverse, and Web 3.0 Developer & Solopreneur (WMD) [Ongoing]</h3>
+                <p>Governor Sindh Initiative, Karachi, Pakistan</p>
+                <p>Year: 2024</p>
+            </div>
+            <div class="education-item">
+                <h3>Pre-Engineering in Intermediate</h3>
+                <p>Govt. Superior Science & Commerce College, Karachi, Pakistan</p>
+                <p>Year: 2022</p>
+            </div>
+            <div class="education-item">
+                <h3>Computer Science in Matric</h3>
+                <p>The Educator, Karachi, Pakistan</p>
+                <p>Year: 2020</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <a href="https://www.avantpharmaceutical.com.pk/">
+                <div class="project-card">
+                    <h3>Avant Pharma Website</h3>
+                    <p>A professional, responsive pharmaceutical website showcasing products, company profile, and
+                        contact info with clean design and easy-to-navigate layout.</p>
+                </div>
+            </a>
+            <a href="https://shmuqvideodownloader.streamlit.app/">
+                <div class="project-card">
+                    <h3>Video Downloader</h3>
+                    <p>A Streamlit Youtube video downloader app that allows users to download videos easily from URLs
+                        with a clean, simple, and user-friendly interface.</p>
+                </div>
+            </a>
+            <a href="https://all-world-clock-time-by-shmuq.streamlit.app/">
+                <div class="project-card">
+                    <h3>World Clock</h3>
+                    <p>A Streamlit world clock app displaying current times for multiple cities globally with an
+                        intuitive, clean interface and easy navigation for quick time checks.</p>
+                </div>
+            </a>
+
+            <a href="https://password-strength-meter-by-shmuq.streamlit.app/">
+                <div class="project-card">
+                    <h3>Password Strength</h3>
+                    <p>A Streamlit app that instantly evaluates password strength, offering clear feedback through a
+                        simple, clean, and user-friendly interface.</p>
+                </div>
+            </a>
+            <a href="https://guess-the-number-game-by-shmuq.streamlit.app/">
+                <div class="project-card">
+                    <h3>Guess the Number</h3>
+                    <p>An interactive Streamlit-based guessing game where users guess numbers, receive feedback, and
+                        enjoy a clean, engaging, and user-friendly interface.</p>
+                </div>
+            </a>
+            <a href="https://unit-convertor-by-shmuq.streamlit.app/">
+                <div class="project-card">
+                    <h3>Unit Converter</h3>
+                    <p>A versatile Streamlit unit converter app supporting multiple measurement types with real-time
+                        conversion, clean design, and easy-to-use interface for quick results.</p>
+                </div>
+            </a>
+
+            <div class="see-more-container">
+                <a href="more_projects.html" class="see-more-card">See More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Next Js</span>
+            <span class="skill">Python</span>
+            <span class="skill">Mobile Inspection</span>
+            <span class="skill">MS Office</span>
+            <span class="skill">Trading</span>
+            <span class="skill">Analytical Thinking</span>
+            <span class="skill">Decision Making</span>
+        </div>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="https://formspree.io/f/xldnerag" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="form-message">Message sent successfully!</div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Syed Hamail. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
